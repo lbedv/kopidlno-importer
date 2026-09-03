@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: kopidlno-importer
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/kopidlno}
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:postgres}
+    driver-class-name: org.postgresql.Driver
